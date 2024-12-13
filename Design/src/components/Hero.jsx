@@ -18,14 +18,14 @@ const Hero = () => {
         <h1 className="text-4xl md:text-8xl font-extrabold leading bg-gradient-to-r from-Eventhive to-Eventblue bg-clip-text text-transparent">
           Book Amazing Campus Events
         </h1>
-        <p className="mt-6 text-base md:text-2xl text-gray-600 max-w-3xl">
+        <p className="mt-6 text-sm md:text-2xl text-gray-600 max-w-3xl">
           Join a vibrant community of students and explore opportunities to learn, 
           connect, and create memorable experiences by booking events.
         </p>
         <div className="mt-12 flex flex-wrap justify-center gap-4">
           <Link
             to="/events"
-            className="px-6 py-2 md;px-8 md:py-4 bg-Eventhive text-white rounded-full text-sm md:text-lg font-semibold transition-all hover:shadow-lg hover:scale-105"
+            className="px-6 py-4 md;px-8 md:py-4 bg-Eventhive text-white rounded-full text-sm md:text-lg font-semibold transition-all hover:shadow-lg hover:scale-105"
           >
             Explore Events
           </Link>
