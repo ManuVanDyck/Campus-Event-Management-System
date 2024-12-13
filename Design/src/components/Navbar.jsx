@@ -3,10 +3,9 @@ import { Link, useNavigate } from "react-router-dom";
 import {
   FaBars,
   FaTimes,
-  FaHouseUser,
 } from "react-icons/fa";
 import { MdHive } from "react-icons/md";
-import { IoBookmarksSharp } from "react-icons/io5";
+import { BsHousesFill } from "react-icons/bs";
 import { useAuth } from "../contexts/AuthContext";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,7 +37,7 @@ const Navbar = () => {
                 : "text-Eventchar"
             } hover:text-Eventchar`}
           >
-            <IoBookmarksSharp />
+            
             <span>My Reservations</span>
           </Link>
 
@@ -51,7 +50,7 @@ const Navbar = () => {
                   : "text-Eventchar"
               } hover:text-Eventchar`}
             >
-              <FaHouseUser />
+              <BsHousesFill />
               <span>Dashboard</span>
             </Link>
           )}
@@ -86,7 +85,7 @@ const Navbar = () => {
               } hover:text-Eventchar`}
               onClick={() => setIsOpen(false)}
             >
-              <IoBookmarksSharp />
+              
               <span>My Reservations</span>
             </Link>
 
@@ -100,14 +99,14 @@ const Navbar = () => {
                 } hover:text-Eventchar`}
                 onClick={() => setIsOpen(false)}
               >
-                <FaHouseUser />
+                <BsHousesFill />
                 <span>Dashboard</span>
               </Link>
             )}
 
             <button
               onClick={handleLogout}
-              className='bg-Eventchar px-4 py-2 rounded-lg text-white hover:bg-Eventhive w-full'
+              className='bg-Eventhive px-4 py-2 rounded-lg text-white hover:bg-Eventchar w-full'
             >
               Logout
             </button>

@@ -11,9 +11,9 @@ const Login = () => {
   const { login, user } = useAuth();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const carouselImages = [
-    "./B4.jpg",
-    "./B5.jpg", // Add more image URLs
-    "./B6.jpg",  // Add more image URLs
+    "https://res.cloudinary.com/dvfmse8he/image/upload/v1734097832/B1_wtv4fu.jpg",
+    "https://res.cloudinary.com/dvfmse8he/image/upload/v1734097832/B2_p4jpkd.jpg", // Add more image URLs
+    "https://res.cloudinary.com/dvfmse8he/image/upload/v1734097842/B5_vkwzbv.jpg",  // Add more image URLs
   ];
 
   useEffect(() => {

@@ -10,9 +10,9 @@ const SignUp = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   
   const carouselImages = [
-    "./B1.jpg",
-    "./B2.jpg", // Add more image URLs
-    "./B3.jpg", // Add more image URLs
+    "https://res.cloudinary.com/dvfmse8he/image/upload/v1734097842/B3_ybf3if.jpg",
+    "https://res.cloudinary.com/dvfmse8he/image/upload/v1734097843/B6_zghots.jpg", // Add more image URLs
+    "https://res.cloudinary.com/dvfmse8he/image/upload/v1734097855/B4_sv3bzi.jpg", // Add more image URLs
   ];
 
   useEffect(() => {
