@@ -61,11 +61,11 @@ const MyEvents = () => {
           {filteredEvents.length === 0 ? (
             <div className='text-center py-16 bg-Eventhive rounded-xl shadow-sm'>
               <div className='max-w-md mx-auto'>
-                <FiCalendar className='mx-auto h-12 w-12 text-gray-100' />
-                <h3 className='mt-4 text-lg font-medium text-gray-200'>
+                <FiCalendar className='mx-auto h-12 w-12 text-white' />
+                <h3 className='mt-4 text-lg font-medium text-white'>
                   No reserved events
                 </h3>
-                <p className='mt-2 text-gray-300'>
+                <p className='mt-2 text-white'>
                   You haven't reserved any events yet.
                 </p>
               </div>

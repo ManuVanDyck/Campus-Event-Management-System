@@ -25,7 +25,7 @@ const Hero = () => {
         <div className="mt-12 flex flex-wrap justify-center gap-4">
           <Link
             to="/events"
-            className="px-8 py-4 bg-Eventhive text-white rounded-full text-lg font-semibold transition-all hover:shadow-lg hover:scale-105"
+            className="px-6 py-2 md;px-8 md:py-4 bg-Eventhive text-white rounded-full text-sm md:text-lg font-semibold transition-all hover:shadow-lg hover:scale-105"
           >
             Explore Events
           </Link>
@@ -42,7 +42,7 @@ const Hero = () => {
             <div className="text-4xl font-bold text-Eventhive">10k+</div>
             <div className="text-gray-600 mt-2">Students</div>
           </div>
-          <div className="text-center">
+          <div className="text-center hidden md:block">
             <div className="text-4xl font-bold text-Eventhive">50+</div>
             <div className="text-gray-600 mt-2">Categories</div>
           </div>
