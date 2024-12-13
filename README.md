@@ -2,7 +2,7 @@
 
 ### Web-tech Exam
 
-A modern web application designed to streamline campus event management, enabling students and staff to discover, register, and manage various campus events including workshops, seminars, and social gatherings.
+A modern web application designed to streamline campus event management.
 
 ## 🌐 Deployment
 - Frontend: [EventHive App](https://campus-event-management-system-chi.vercel.app/)
@@ -45,6 +45,14 @@ A modern web application designed to streamline campus event management, enablin
 - [x] Real-time updates
 - [x] Intuitive navigation
 
+
+
+## Postman
+<img width="486" alt="Screenshot 2024-12-13 at 10 03 46 PM" src="https://github.com/user-attachments/assets/02cf9359-ad01-439b-89f7-2806517f83f6" />
+
+<img width="280" alt="Screenshot 2024-12-13 at 10 03 55 PM" src="https://github.com/user-attachments/assets/a92c5849-11b0-4332-887c-54fe9a347467" />
+
+
 ## 🛠️ Installation
 
 ### Prerequisites
@@ -70,3 +78,6 @@ JWT_SECRET=your_jwt_secret
 - Authentication: JWT
 - State Management: Context API
 - UI Components: Custom components with Tailwind
+
+
+
