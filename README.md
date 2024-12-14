@@ -80,4 +80,15 @@ JWT_SECRET=your_jwt_secret
 - UI Components: Custom components with Tailwind
 
 
+## Running locally
+
+### Backend
+1. cd Api
+2. npm run start
+
+
+### Design
+1 cd Design
+2. npm run start
+
 
